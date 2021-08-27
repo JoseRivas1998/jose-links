@@ -3,7 +3,22 @@
 body {
     background: black;
     font-family: 'Roboto', sans-serif;
-    background: url('main_bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('main_bg.jpg');
     background-position: center top;
     background-repeat: repeat-y;
+}
+
+.ProfilePicture {
+    width: 128px;
+    margin: 3em auto 1em auto;
+}
+
+.ProfilePicture > img {
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
 }
