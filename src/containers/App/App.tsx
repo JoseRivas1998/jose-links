@@ -18,7 +18,7 @@ function App() {
             if (db_link.icon) {
                 link.icon = {
                     ...db_link.icon,
-                    src: `/icons/${db_link.icon.src}.png`
+                    src: `/link_icons/${db_link.icon.src}.png`
                 }
             }
             return link;
