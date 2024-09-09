@@ -12,7 +12,7 @@ const Page = async () => {
         <img
           src={'https://cdn.tinycountrygames.com/blog/home_portrait.jpg'}
           alt={'Profile Image of Jose'}
-          className={'w-1px rounded-full'}
+          className={'w-full rounded-full'}
         />
       </div>
       <h1 className={'text-center text-white text-[2em] font-bold my-4'}>José Rodriguez Rivas</h1>
