@@ -3,9 +3,7 @@ import { PortfolioLinkItem } from '@/library/types';
 import Providers from '@/app/Providers';
 
 const Page = async () => {
-  const initialLinksResponse = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT}/portfolio/links`, {
-    cache: 'no-store',
-  });
+  const initialLinksResponse = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT}/portfolio/links`);
   const initialLinks = (await initialLinksResponse.json()) as PortfolioLinkItem[];
 
   return (
