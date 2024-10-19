@@ -23,7 +23,7 @@ const PortfolioLinks = (props: PortfolioLinksProps) => {
   });
 
   return (
-    <div className={'w-[100%] lg:w-3/4 mx-auto'}>
+    <div className={'container mx-auto'}>
       {links.map((link) => (
         <PortfolioLink
           link={link}
